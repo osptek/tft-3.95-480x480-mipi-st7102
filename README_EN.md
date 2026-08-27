@@ -19,6 +19,7 @@
 - [Versions](#versions)
 - [YDP395B007-V4](#ydp395b007-v4)
 - [YDP395BT008-V1](#ydp395bt008-v1)
+- [YDP395BG006-V4](#ydp395bg006-v4)
 - [Where to Buy](#where-to-buy)
 - [Support](#support)
 
@@ -40,6 +41,7 @@ Repo id: `3.95-tft-480x480-mipi-st7102`
 | ------- | ----- | ------- | --------- |
 | YDP395B007-V4 | <img alt="YDP395B007-V4" src="./versions/YDP395B007-V4/images/product.png" width="120" /> | [Summary](#ydp395b007-v4) | [Full docs](./versions/YDP395B007-V4/) |
 | YDP395BT008-V1 | <img alt="YDP395BT008-V1" src="./versions/YDP395BT008-V1/images/product.png" width="120" /> | [Summary](#ydp395bt008-v1) | [Full docs](./versions/YDP395BT008-V1/) |
+| YDP395BG006-V4 | <img alt="YDP395BG006-V4" src="./versions/YDP395BG006-V4/images/product.png" width="120" /> | [Summary](#ydp395bg006-v4) | [Full docs](./versions/YDP395BG006-V4/) |
 
 ---
 
@@ -60,6 +62,16 @@ Full product page, datasheets, and examples: [versions/YDP395B007-V4/](./version
 **Notes:** In-Cell; with touch (ST7123).
 
 Full product page, datasheets, and examples: [versions/YDP395BT008-V1/](./versions/YDP395BT008-V1/)
+
+---
+
+## YDP395BG006-V4
+
+<p align="center"><img alt="YDP395BG006-V4" src="./versions/YDP395BG006-V4/images/product.png" width="320" /></p>
+
+**Notes:** With touch (ST7123); same interface/samples as YDP395B007-V4, different cover glass.
+
+Full product page and materials: [versions/YDP395BG006-V4/](./versions/YDP395BG006-V4/)
 
 ---
 

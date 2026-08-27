@@ -1,0 +1,141 @@
+<p align="left"><img alt="OSPTEK" src="./images/logo.png" width="200" /></p>
+
+<h1 align="center">OSPTEK 3.95″ TFT 480×480（ST7102 · MIPI）</h1>
+
+<p align="center"><b>方形 TFT 模组 · MIPI · ST7102 · 电容触摸</b></p>
+
+<p align="center"><a href="./README_EN.md">English</a> | 简体中文 · <a href="../../README.md">规格族索引</a></p>
+
+<p align="center">
+  <img alt="Size: 3.95 inch" src="https://img.shields.io/badge/Size-3.95%22-3498DB?style=flat-square" />
+  <img alt="Resolution: 480x480" src="https://img.shields.io/badge/Resolution-480%C3%97480-8E44AD?style=flat-square" />
+  <img alt="Interface: MIPI" src="https://img.shields.io/badge/Interface-MIPI-27AE60?style=flat-square" />
+  <img alt="Driver: ST7102" src="https://img.shields.io/badge/Driver-ST7102-E7352C?style=flat-square" />
+</p>
+
+<p align="center"><img alt="OSPTEK 3.95 寸 480×480 TFT MIPI 模组（ST7102）宣传图" src="./images/product.png" width="640" /></p>
+
+## 目录
+
+- [产品简介](#产品简介)
+- [规格参数](#规格参数)
+- [示例工程](#示例工程)
+- [仓库结构](#仓库结构)
+- [相关资料](#相关资料)
+- [购买链接](#购买链接)
+- [技术支持](#技术支持)
+
+---
+
+## 产品简介
+
+OSPTEK **3.95 寸 480×480 TFT** 是一款 **MIPI** 接口彩色显示模组，显示驱动为 **ST7102**，触摸驱动为 **ST7123**。与 **YDP395B007-V4** 电气接口与示例程序相同，盖板不同。适合方形 HMI、仪表与中尺寸交互面板等场景。
+
+规格标识（仓库名）：`3.95-tft-480x480-mipi-st7102`
+
+当前模组版本：**YDP395BG006-V4**。外形与机械尺寸以 [`docs/YDP395BG006-V4_外形图.pdf`](./docs/YDP395BG006-V4_%E5%A4%96%E5%BD%A2%E5%9B%BE.pdf) 为准。
+
+## 规格参数
+
+| 项目 | 规格 |
+| ---- | ---- |
+| 尺寸 | 3.95 英寸 |
+| 类型 | TFT / IPS（彩色） |
+| 分辨率 | 480×480 |
+| 接口 | MIPI |
+| 驱动 IC | ST7102 |
+| 触摸驱动 | ST7123 |
+
+> 完整外形尺寸、FPC 定义、供电与时序以 CAD / 转接板资料 / 驱动手册为准。
+
+## 示例工程
+
+| 说明 | 路径 |
+| ---- | ---- |
+| ESP32-P4 · ST7102 MIPI + esp-lvgl-port / LVGL9 | [`examples/esp32p4-idf5_st7102-mipi_esp-lvgl-port_lvgl9/`](./examples/esp32p4-idf5_st7102-mipi_esp-lvgl-port_lvgl9/) |
+| ESP32-P4 · LVGL9 + TE 防撕裂 | [`examples/with-te/esp32p4-idf5_st7102-mipi_lvgl9-common-demo/`](./examples/with-te/esp32p4-idf5_st7102-mipi_lvgl9-common-demo/) |
+| ESP32-P4 · JPEG 解码 | [`examples/jpg-decoder/p4-idf_st7102-mipi_jpeg-decode/`](./examples/jpg-decoder/p4-idf_st7102-mipi_jpeg-decode/) |
+| ESP32-P4 · JPEG 解码 + LVGL9 | [`examples/jpg-decoder/p4-idf_st7102-mipi_jpeg-decode_lvgl-v9/`](./examples/jpg-decoder/p4-idf_st7102-mipi_jpeg-decode_lvgl-v9/) |
+| ESP32-P4 · JPEG 解码 + 数字时钟 + LVGL9 | [`examples/jpg-decoder/p4-idf_st7102-mipi_jpeg-decode_digital-clock_lvgl-v9/`](./examples/jpg-decoder/p4-idf_st7102-mipi_jpeg-decode_digital-clock_lvgl-v9/) |
+| ESP32-P4 · JPEG 批量循环显示 | [`examples/jpg-decoder/p4-idf_st7102-mipi_jpeg-decode_batch-loop-display/`](./examples/jpg-decoder/p4-idf_st7102-mipi_jpeg-decode_batch-loop-display/) |
+| ESP32-P4 · JPEG 批量循环显示 + LVGL9 | [`examples/jpg-decoder/p4-idf_st7102-mipi_jpeg-decode_lvgl-v9_batch-loop-display/`](./examples/jpg-decoder/p4-idf_st7102-mipi_jpeg-decode_lvgl-v9_batch-loop-display/) |
+| ESP32-P4 · MJPEG 解码 | [`examples/mjpeg/p4-idf_st7102-mipi_mjpeg-decode/`](./examples/mjpeg/p4-idf_st7102-mipi_mjpeg-decode/) |
+| ESP32-P4 · MJPEG 解码 + LVGL9 | [`examples/mjpeg/p4-idf_st7102-mipi_mjpeg-decode_lvgl-v9/`](./examples/mjpeg/p4-idf_st7102-mipi_mjpeg-decode_lvgl-v9/) |
+| ESP32-P4 · MJPEG 批量循环显示 | [`examples/mjpeg/p4-idf_st7102-mipi_mjpeg-decode_batch-loop-display/`](./examples/mjpeg/p4-idf_st7102-mipi_mjpeg-decode_batch-loop-display/) |
+| ESP32-P4 · MJPEG 批量循环显示 + LVGL9 | [`examples/mjpeg/p4-idf_st7102-mipi_mjpeg-decode_batch-loop-display_lvgl-v9/`](./examples/mjpeg/p4-idf_st7102-mipi_mjpeg-decode_batch-loop-display_lvgl-v9/) |
+| ESP32-P4 · MJPEG 解码（双核） | [`examples/mjpeg/p4-idf_st7102-mipi_mjpeg-decode_dual-core/`](./examples/mjpeg/p4-idf_st7102-mipi_mjpeg-decode_dual-core/) |
+| ESP32-P4 · MJPEG 解码 + LVGL9（双核） | [`examples/mjpeg/p4-idf_st7102-mipi_mjpeg-decode_lvgl-v9_dual-core/`](./examples/mjpeg/p4-idf_st7102-mipi_mjpeg-decode_lvgl-v9_dual-core/) |
+| Raspberry Pi 5 · ST7102 480×480 面板驱动 / DT overlay（仅显示） | [`examples/rpi5-panel-st7102-480x480/`](./examples/rpi5-panel-st7102-480x480/) |
+| Raspberry Pi 5 · ST7102 显示 + ST7123 触摸 / DT overlay | [`examples/rpi5-panel-st7102-st7123-480x480/`](./examples/rpi5-panel-st7102-st7123-480x480/) |
+| Raspberry Pi 5 · ST7102 + ST7123 · LVGL9 运行示例 | [`examples/rpi5-lvgl-st7102-st7123-480x480/`](./examples/rpi5-lvgl-st7102-st7123-480x480/) |
+
+## 仓库结构
+
+```text
+3.95-tft-480x480-mipi-st7102/          # 仓库根（导航见 ../../README.md）
+└── versions/
+    └── YDP395BG006-V4/                # 本料号完整资料
+        ├── README.md
+        ├── README_EN.md
+        ├── images/
+        ├── docs/
+        └── examples/
+```
+
+## 相关资料
+
+### 本产品资料
+
+| 资料 | 链接 |
+| ---- | ---- |
+| 外形图（YDP395BG006-V4） | [`docs/YDP395BG006-V4_外形图.pdf`](./docs/YDP395BG006-V4_%E5%A4%96%E5%BD%A2%E5%9B%BE.pdf) |
+| 转接板（与 B007 共用） | [`docs/3.95-ST7102-MIPI_转接板.pdf`](./docs/3.95-ST7102-MIPI_%E8%BD%AC%E6%8E%A5%E6%9D%BF.pdf) |
+| 驱动 IC 数据手册（ST7102） | [`docs/ST7102_Datasheet_V0.22.pdf`](./docs/ST7102_Datasheet_V0.22.pdf) |
+| 初始化序列（文本） | [`docs/CODE.txt`](./docs/CODE.txt) |
+| 3.95 寸 ST7102 MIPI 屏幕（V1.1） | [`docs/3.95 ST7102 MIPI屏幕V1.1.pdf`](./docs/3.95%20ST7102%20MIPI%E5%B1%8F%E5%B9%95V1.1.pdf) |
+
+### 示例工程
+
+- [ESP32-P4 ST7102 MIPI + LVGL9](./examples/esp32p4-idf5_st7102-mipi_esp-lvgl-port_lvgl9/)
+- [ESP32-P4 LVGL9 + TE](./examples/with-te/esp32p4-idf5_st7102-mipi_lvgl9-common-demo/)
+- [ESP32-P4 JPEG 解码](./examples/jpg-decoder/p4-idf_st7102-mipi_jpeg-decode/)
+- [ESP32-P4 JPEG 解码 + LVGL9](./examples/jpg-decoder/p4-idf_st7102-mipi_jpeg-decode_lvgl-v9/)
+- [ESP32-P4 JPEG 解码 + 数字时钟 + LVGL9](./examples/jpg-decoder/p4-idf_st7102-mipi_jpeg-decode_digital-clock_lvgl-v9/)
+- [ESP32-P4 JPEG 批量循环显示](./examples/jpg-decoder/p4-idf_st7102-mipi_jpeg-decode_batch-loop-display/)
+- [ESP32-P4 JPEG 批量循环显示 + LVGL9](./examples/jpg-decoder/p4-idf_st7102-mipi_jpeg-decode_lvgl-v9_batch-loop-display/)
+- [ESP32-P4 MJPEG 解码](./examples/mjpeg/p4-idf_st7102-mipi_mjpeg-decode/)
+- [ESP32-P4 MJPEG 解码 + LVGL9](./examples/mjpeg/p4-idf_st7102-mipi_mjpeg-decode_lvgl-v9/)
+- [ESP32-P4 MJPEG 批量循环显示](./examples/mjpeg/p4-idf_st7102-mipi_mjpeg-decode_batch-loop-display/)
+- [ESP32-P4 MJPEG 批量循环显示 + LVGL9](./examples/mjpeg/p4-idf_st7102-mipi_mjpeg-decode_batch-loop-display_lvgl-v9/)
+- [ESP32-P4 MJPEG 解码（双核）](./examples/mjpeg/p4-idf_st7102-mipi_mjpeg-decode_dual-core/)
+- [ESP32-P4 MJPEG 解码 + LVGL9（双核）](./examples/mjpeg/p4-idf_st7102-mipi_mjpeg-decode_lvgl-v9_dual-core/)
+- [Raspberry Pi 5 ST7102 面板（仅显示）](./examples/rpi5-panel-st7102-480x480/)
+- [Raspberry Pi 5 ST7102 显示 + ST7123 触摸](./examples/rpi5-panel-st7102-st7123-480x480/)
+- [Raspberry Pi 5 ST7102 + ST7123 · LVGL9](./examples/rpi5-lvgl-st7102-st7123-480x480/)
+
+## 购买链接
+
+<p align="center">
+  <a href="https://shop110742373.taobao.com/"><img alt="淘宝官方店铺" src="https://img.shields.io/badge/淘宝-官方店铺-FF6A00?style=for-the-badge" /></a>
+  &nbsp;&nbsp;
+  <a href="https://www.aliexpress.com/store/1105701619"><img alt="速卖通官方店铺" src="https://img.shields.io/badge/速卖通-官方店铺-FF6A00?style=for-the-badge" /></a>
+</p>
+
+**国内（淘宝）**
+
+- 店铺：[鱼鹰光电工厂店](https://shop110742373.taobao.com/)
+
+**海外（AliExpress）**
+
+- 店铺：[OSPTEK Official Store](https://www.aliexpress.com/store/1105701619)
+
+## 技术支持
+
+- 技术支持 / 产品咨询：<luyu@osptek.com>
+- QQ 技术交流群：**985881096**
+- 公司官网：<https://osptek.com/>
+- 有任何问题，都可以在本仓库 Issues 中提问
+
+---
+
+<p align="center"><sub>© 2026 OSPTEK 鱼鹰光电 · 本仓库资料采用 CC BY 4.0 许可</sub></p>

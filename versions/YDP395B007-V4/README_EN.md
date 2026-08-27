@@ -65,6 +65,9 @@ Current module version: **YDP395B007-V4**. Electrical and mechanical details fol
 | ESP32-P4 · MJPEG batch loop display + LVGL9 | [`examples/mjpeg/p4-idf_st7102-mipi_mjpeg-decode_batch-loop-display_lvgl-v9/`](./examples/mjpeg/p4-idf_st7102-mipi_mjpeg-decode_batch-loop-display_lvgl-v9/) |
 | ESP32-P4 · MJPEG decode (dual-core) | [`examples/mjpeg/p4-idf_st7102-mipi_mjpeg-decode_dual-core/`](./examples/mjpeg/p4-idf_st7102-mipi_mjpeg-decode_dual-core/) |
 | ESP32-P4 · MJPEG decode + LVGL9 (dual-core) | [`examples/mjpeg/p4-idf_st7102-mipi_mjpeg-decode_lvgl-v9_dual-core/`](./examples/mjpeg/p4-idf_st7102-mipi_mjpeg-decode_lvgl-v9_dual-core/) |
+| Raspberry Pi 5 · ST7102 480×480 panel / DT overlay (display only) | [`examples/rpi5-panel-st7102-480x480/`](./examples/rpi5-panel-st7102-480x480/) |
+| Raspberry Pi 5 · ST7102 display + ST7123 touch / DT overlay | [`examples/rpi5-panel-st7102-st7123-480x480/`](./examples/rpi5-panel-st7102-st7123-480x480/) |
+| Raspberry Pi 5 · ST7102 + ST7123 · LVGL9 runner | [`examples/rpi5-lvgl-st7102-st7123-480x480/`](./examples/rpi5-lvgl-st7102-st7123-480x480/) |
 
 ## Repository layout
 
@@ -86,6 +89,7 @@ Current module version: **YDP395B007-V4**. Electrical and mechanical details fol
 | Resource | Link |
 | ---- | ---- |
 | Product datasheet (YDP395B007-V4) | [`docs/YDP395B007-V4.pdf`](./docs/YDP395B007-V4.pdf) |
+| Adapter board (shared with BG006) | [`docs/3.95-ST7102-MIPI_转接板.pdf`](./docs/3.95-ST7102-MIPI_%E8%BD%AC%E6%8E%A5%E6%9D%BF.pdf) |
 | Driver IC datasheet (ST7102) | [`docs/ST7102_Datasheet_V0.22.pdf`](./docs/ST7102_Datasheet_V0.22.pdf) |
 | Init sequence (text) | [`docs/CODE.txt`](./docs/CODE.txt) |
 | 3.95″ ST7102 MIPI board (V1.1) | [`docs/3.95 ST7102 MIPI屏幕V1.1.pdf`](./docs/3.95%20ST7102%20MIPI%E5%B1%8F%E5%B9%95V1.1.pdf) |
@@ -105,6 +109,9 @@ Current module version: **YDP395B007-V4**. Electrical and mechanical details fol
 - [ESP32-P4 MJPEG batch loop display + LVGL9](./examples/mjpeg/p4-idf_st7102-mipi_mjpeg-decode_batch-loop-display_lvgl-v9/)
 - [ESP32-P4 MJPEG decode (dual-core)](./examples/mjpeg/p4-idf_st7102-mipi_mjpeg-decode_dual-core/)
 - [ESP32-P4 MJPEG decode + LVGL9 (dual-core)](./examples/mjpeg/p4-idf_st7102-mipi_mjpeg-decode_lvgl-v9_dual-core/)
+- [Raspberry Pi 5 ST7102 panel (display only)](./examples/rpi5-panel-st7102-480x480/)
+- [Raspberry Pi 5 ST7102 display + ST7123 touch](./examples/rpi5-panel-st7102-st7123-480x480/)
+- [Raspberry Pi 5 ST7102 + ST7123 · LVGL9](./examples/rpi5-lvgl-st7102-st7123-480x480/)
 
 ## Buy
 

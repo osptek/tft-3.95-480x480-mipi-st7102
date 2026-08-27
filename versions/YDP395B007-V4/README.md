@@ -65,6 +65,9 @@ OSPTEK **3.95 寸 480×480 TFT** 是一款 **MIPI** 接口彩色显示模组，�
 | ESP32-P4 · MJPEG 批量循环显示 + LVGL9 | [`examples/mjpeg/p4-idf_st7102-mipi_mjpeg-decode_batch-loop-display_lvgl-v9/`](./examples/mjpeg/p4-idf_st7102-mipi_mjpeg-decode_batch-loop-display_lvgl-v9/) |
 | ESP32-P4 · MJPEG 解码（双核） | [`examples/mjpeg/p4-idf_st7102-mipi_mjpeg-decode_dual-core/`](./examples/mjpeg/p4-idf_st7102-mipi_mjpeg-decode_dual-core/) |
 | ESP32-P4 · MJPEG 解码 + LVGL9（双核） | [`examples/mjpeg/p4-idf_st7102-mipi_mjpeg-decode_lvgl-v9_dual-core/`](./examples/mjpeg/p4-idf_st7102-mipi_mjpeg-decode_lvgl-v9_dual-core/) |
+| Raspberry Pi 5 · ST7102 480×480 面板驱动 / DT overlay（仅显示） | [`examples/rpi5-panel-st7102-480x480/`](./examples/rpi5-panel-st7102-480x480/) |
+| Raspberry Pi 5 · ST7102 显示 + ST7123 触摸 / DT overlay | [`examples/rpi5-panel-st7102-st7123-480x480/`](./examples/rpi5-panel-st7102-st7123-480x480/) |
+| Raspberry Pi 5 · ST7102 + ST7123 · LVGL9 运行示例 | [`examples/rpi5-lvgl-st7102-st7123-480x480/`](./examples/rpi5-lvgl-st7102-st7123-480x480/) |
 
 ## 仓库结构
 
@@ -86,6 +89,7 @@ OSPTEK **3.95 寸 480×480 TFT** 是一款 **MIPI** 接口彩色显示模组，�
 | 资料 | 链接 |
 | ---- | ---- |
 | 产品规格书（YDP395B007-V4） | [`docs/YDP395B007-V4.pdf`](./docs/YDP395B007-V4.pdf) |
+| 转接板（与 BG006 共用） | [`docs/3.95-ST7102-MIPI_转接板.pdf`](./docs/3.95-ST7102-MIPI_%E8%BD%AC%E6%8E%A5%E6%9D%BF.pdf) |
 | 驱动 IC 数据手册（ST7102） | [`docs/ST7102_Datasheet_V0.22.pdf`](./docs/ST7102_Datasheet_V0.22.pdf) |
 | 初始化序列（文本） | [`docs/CODE.txt`](./docs/CODE.txt) |
 | 3.95 寸 ST7102 MIPI 屏幕（V1.1） | [`docs/3.95 ST7102 MIPI屏幕V1.1.pdf`](./docs/3.95%20ST7102%20MIPI%E5%B1%8F%E5%B9%95V1.1.pdf) |
@@ -105,6 +109,9 @@ OSPTEK **3.95 寸 480×480 TFT** 是一款 **MIPI** 接口彩色显示模组，�
 - [ESP32-P4 MJPEG 批量循环显示 + LVGL9](./examples/mjpeg/p4-idf_st7102-mipi_mjpeg-decode_batch-loop-display_lvgl-v9/)
 - [ESP32-P4 MJPEG 解码（双核）](./examples/mjpeg/p4-idf_st7102-mipi_mjpeg-decode_dual-core/)
 - [ESP32-P4 MJPEG 解码 + LVGL9（双核）](./examples/mjpeg/p4-idf_st7102-mipi_mjpeg-decode_lvgl-v9_dual-core/)
+- [Raspberry Pi 5 ST7102 面板（仅显示）](./examples/rpi5-panel-st7102-480x480/)
+- [Raspberry Pi 5 ST7102 显示 + ST7123 触摸](./examples/rpi5-panel-st7102-st7123-480x480/)
+- [Raspberry Pi 5 ST7102 + ST7123 · LVGL9](./examples/rpi5-lvgl-st7102-st7123-480x480/)
 
 ## 购买链接
 
