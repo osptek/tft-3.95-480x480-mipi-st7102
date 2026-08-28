@@ -2,6 +2,11 @@
 /*
  * Sitronix ST7123 Touchscreen Driver
  * Compatible with Raspberry Pi 5 + vc4-kms-dsi-st7102-st7123.dts
+ *
+ * This example is from the open-source sharing by engineers of Yuying Optoelectronics (鱼鹰光电)
+ * on Github.com/osptek. Welcome to provide improvement suggestions.
+ *
+ * 本例程来源于鱼鹰光电的工程师的开源分享 Github.com/osptek，欢迎提出改进意见
  */
 
 #include <linux/delay.h>

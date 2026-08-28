@@ -55,6 +55,7 @@ Current module version: **YDP395BT008-V1**. Electrical and mechanical details fo
 | ESP32-P4 · ST7102 MIPI + ST7123 touch bringup | [`examples/esp32p4-3.95-tft-480x480-mipi-st7102-bringup/`](./examples/esp32p4-3.95-tft-480x480-mipi-st7102-bringup/) |
 | Raspberry Pi 5 · ST7102 480×480 panel / DT overlay (display only) | [`examples/rpi5-panel-st7102-480x480/`](./examples/rpi5-panel-st7102-480x480/) |
 | Raspberry Pi 5 · ST7102 display + ST7123 touch / DT overlay | [`examples/rpi5-panel-st7102-st7123-480x480/`](./examples/rpi5-panel-st7102-st7123-480x480/) |
+| Raspberry Pi 5 · ST7102 + ST7123 · LVGL (DRM + EVDEV) | [`examples/rpi5-lvgl-st7102-st7123-480x480/`](./examples/rpi5-lvgl-st7102-st7123-480x480/) |
 
 ## Repository layout
 
@@ -83,6 +84,7 @@ Current module version: **YDP395BT008-V1**. Electrical and mechanical details fo
 - [ESP32-P4 ST7102 MIPI + ST7123 bringup](./examples/esp32p4-3.95-tft-480x480-mipi-st7102-bringup/)
 - [Raspberry Pi 5 ST7102 panel (display only)](./examples/rpi5-panel-st7102-480x480/)
 - [Raspberry Pi 5 ST7102 display + ST7123 touch](./examples/rpi5-panel-st7102-st7123-480x480/)
+- [Raspberry Pi 5 ST7102 + ST7123 · LVGL](./examples/rpi5-lvgl-st7102-st7123-480x480/)
 
 ## Buy
 
