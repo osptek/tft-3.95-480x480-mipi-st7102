@@ -1,0 +1,15 @@
+category: display
+repo: 3.95-tft-480x480-mipi-st7102
+panel:
+  size_inch: '3.95'
+  panel: TFT
+  width: 480
+  height: 480
+  interface: MIPI
+  driver: ST7102
+slogan_zh: TFT 模组 · MIPI · ST7102 · 多版本索引
+slogan_en: TFT module · MIPI · ST7102 · Multi-Version Index
+skus:
+- YDP395B007-V4
+- YDP395BT008-V1
+- YDP395BG006-V4

@@ -60,14 +60,14 @@ OSPTEK **3.95 寸 480×480 TFT** 是一款 **MIPI** 接口彩色显示模组，�
 ## 仓库结构
 
 ```text
-3.95-tft-480x480-mipi-st7102/          # 仓库根（导航见 ../../README.md）
+3.95-tft-480x480-mipi-st7102/  # 仓库根（导航见 ../../README.md）
 └── versions/
-    └── YDP395BT008-V1/                # 本料号完整资料
+    └── YDP395BT008-V1/        # 本料号完整资料
         ├── README.md
         ├── README_EN.md
-        ├── images/                    # README 用图
-        ├── docs/                      # 规格书、驱动手册
-        └── examples/                  # 示例工程
+        ├── images/
+        ├── docs/
+        └── examples/
 ```
 
 ## 相关资料

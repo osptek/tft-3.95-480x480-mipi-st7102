@@ -44,7 +44,7 @@ Current module version: **YDP395BG006-V4**. Mechanical outline follows [`docs/YD
 | Resolution | 480×480 |
 | Interface | MIPI |
 | Driver IC | ST7102 |
-| Touch IC | ST7123 |
+| Touch driver | ST7123 |
 
 > Full outline, FPC definition, power, and timing follow the CAD / adapter docs / driver IC datasheet.
 
@@ -72,9 +72,9 @@ Current module version: **YDP395BG006-V4**. Mechanical outline follows [`docs/YD
 ## Repository layout
 
 ```text
-3.95-tft-480x480-mipi-st7102/          # repo root (nav: ../../README_EN.md)
+3.95-tft-480x480-mipi-st7102/  # repo root (nav: ../../README_EN.md)
 └── versions/
-    └── YDP395BG006-V4/                # full materials for this part number
+    └── YDP395BG006-V4/        # full materials for this part number
         ├── README.md
         ├── README_EN.md
         ├── images/
@@ -132,9 +132,9 @@ Current module version: **YDP395BG006-V4**. Mechanical outline follows [`docs/YD
 ## Support
 
 - Technical support / product inquiry: <luyu@osptek.com>
-- QQ group: **985881096**
+- QQ group (China): **985881096**
 - Website: <https://osptek.com/>
-- Feel free to open an Issue in this repository with any questions
+- Feel free to open an Issue in this repository if you have any questions
 
 ---
 

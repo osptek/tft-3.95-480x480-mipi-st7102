@@ -71,7 +71,7 @@ Full product page, datasheets, and examples: [versions/YDP395BT008-V1/](./versio
 
 **Notes:** With touch (ST7123); same interface/samples as YDP395B007-V4, different cover glass.
 
-Full product page and materials: [versions/YDP395BG006-V4/](./versions/YDP395BG006-V4/)
+Full product page, datasheets, and examples: [versions/YDP395BG006-V4/](./versions/YDP395BG006-V4/)
 
 ---
 

@@ -72,14 +72,14 @@ Current module version: **YDP395B007-V4**. Electrical and mechanical details fol
 ## Repository layout
 
 ```text
-3.95-tft-480x480-mipi-st7102/          # repo root (nav: ../../README_EN.md)
+3.95-tft-480x480-mipi-st7102/  # repo root (nav: ../../README_EN.md)
 └── versions/
-    └── YDP395B007-V4/                 # full materials for this part number
+    └── YDP395B007-V4/         # full materials for this part number
         ├── README.md
         ├── README_EN.md
-        ├── images/                    # README assets
-        ├── docs/                      # datasheets, init, etc.
-        └── examples/                  # sample projects
+        ├── images/
+        ├── docs/
+        └── examples/
 ```
 
 ## Resources
@@ -132,9 +132,9 @@ Current module version: **YDP395B007-V4**. Electrical and mechanical details fol
 ## Support
 
 - Technical support / product inquiry: <luyu@osptek.com>
-- QQ group: **985881096**
+- QQ group (China): **985881096**
 - Website: <https://osptek.com/>
-- Feel free to open an Issue in this repository with any questions
+- Feel free to open an Issue in this repository if you have any questions
 
 ---
 

@@ -1,0 +1,64 @@
+sku: YDP395BT008-V1
+category: display
+repo: 3.95-tft-480x480-mipi-st7102
+panel:
+  size_inch: '3.95'
+  panel: TFT
+  width: 480
+  height: 480
+  interface: MIPI
+  driver: ST7102
+  touch_driver: ST7123（In-Cell）
+copy:
+  slogan_zh: 方形 TFT 模组 · MIPI · ST7102 · In-Cell（ST7123）
+  slogan_en: Square TFT module · MIPI · ST7102 · In-Cell (ST7123)
+  intro_zh: OSPTEK **3.95 寸 480×480 TFT** 是一款 **MIPI** 接口彩色显示模组，显示驱动为 **ST7102**，触摸为 **In-Cell（ST7123）**。适合方形 HMI、仪表与中尺寸交互面板等场景。
+  intro_en: OSPTEK **3.95″ 480×480 TFT** is a **MIPI** color display module driven by **ST7102**, with **In-Cell** capacitive touch (**ST7123**). Suited to square HMI, instruments, and mid-size interactive panels.
+  version_note_zh: 当前模组版本：**YDP395BT008-V1**。电气与外形细节以 [`docs/YDP395BT008-V1.pdf`](./docs/YDP395BT008-V1.pdf) 为准。
+  version_note_en: 'Current module version: **YDP395BT008-V1**. Electrical and mechanical details follow [`docs/YDP395BT008-V1.pdf`](./docs/YDP395BT008-V1.pdf).'
+  panel_type_zh: TFT / IPS（彩色）
+  panel_type_en: TFT / IPS (color)
+  touch_en: ST7123 (In-Cell)
+  spec_note_zh: 完整外形尺寸、FPC 定义、供电与时序以产品规格书 / 驱动手册为准。
+  spec_note_en: Full outline, FPC definition, power, and timing follow the product datasheet / driver IC datasheet.
+  nav_note_zh: In-Cell，带触摸（ST7123）。
+  nav_note_en: In-Cell; with touch (ST7123).
+datasheet:
+  label_zh: docs/YDP395BT008-V1.pdf
+  label_en: docs/YDP395BT008-V1.pdf
+  path: docs/YDP395BT008-V1.pdf
+product_image: true
+hero_alt_zh: OSPTEK 3.95 寸 480×480 TFT MIPI 模组（ST7102）宣传图
+hero_alt_en: OSPTEK 3.95 inch 480x480 TFT MIPI module (ST7102)
+examples:
+- path: examples/esp32p4-3.95-tft-480x480-mipi-st7102-bringup/
+  label_zh: ESP32-P4 · ST7102 MIPI + ST7123 触摸 bringup
+  label_en: ESP32-P4 · ST7102 MIPI + ST7123 touch bringup
+  short_zh: ESP32-P4 ST7102 MIPI + ST7123 bringup
+  short_en: ESP32-P4 ST7102 MIPI + ST7123 bringup
+- path: examples/rpi5-panel-st7102-480x480/
+  label_zh: Raspberry Pi 5 · ST7102 480×480 面板驱动 / DT overlay（仅显示）
+  label_en: Raspberry Pi 5 · ST7102 480×480 panel / DT overlay (display only)
+  short_zh: Raspberry Pi 5 ST7102 面板（仅显示）
+  short_en: Raspberry Pi 5 ST7102 panel (display only)
+- path: examples/rpi5-panel-st7102-st7123-480x480/
+  label_zh: Raspberry Pi 5 · ST7102 显示 + ST7123 触摸 / DT overlay
+  label_en: Raspberry Pi 5 · ST7102 display + ST7123 touch / DT overlay
+  short_zh: Raspberry Pi 5 ST7102 显示 + ST7123 触摸
+  short_en: Raspberry Pi 5 ST7102 display + ST7123 touch
+- path: examples/rpi5-lvgl-st7102-st7123-480x480/
+  label_zh: Raspberry Pi 5 · ST7102 + ST7123 · LVGL（DRM + EVDEV）
+  label_en: Raspberry Pi 5 · ST7102 + ST7123 · LVGL (DRM + EVDEV)
+  short_zh: Raspberry Pi 5 ST7102 + ST7123 · LVGL
+  short_en: Raspberry Pi 5 ST7102 + ST7123 · LVGL
+resources:
+- label_zh: 产品规格书（YDP395BT008-V1）
+  label_en: Product datasheet (YDP395BT008-V1)
+  path: docs/YDP395BT008-V1.pdf
+- label_zh: 驱动 IC 数据手册（ST7102）
+  label_en: Driver IC datasheet (ST7102)
+  path: docs/ST7102_Datasheet_V0.22.pdf
+layout_dirs:
+- images/
+- docs/
+- examples/

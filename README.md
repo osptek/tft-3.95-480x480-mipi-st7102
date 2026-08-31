@@ -71,7 +71,7 @@
 
 **说明：** 带触摸（ST7123）；与 YDP395B007-V4 接口/示例相同，盖板不同。
 
-完整产品页与资料：[versions/YDP395BG006-V4/](./versions/YDP395BG006-V4/)
+完整产品页、规格书与示例：[versions/YDP395BG006-V4/](./versions/YDP395BG006-V4/)
 
 ---
 

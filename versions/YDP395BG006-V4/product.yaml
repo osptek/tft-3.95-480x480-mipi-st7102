@@ -1,0 +1,128 @@
+sku: YDP395BG006-V4
+category: display
+repo: 3.95-tft-480x480-mipi-st7102
+panel:
+  size_inch: '3.95'
+  panel: TFT
+  width: 480
+  height: 480
+  interface: MIPI
+  driver: ST7102
+  touch_driver: ST7123
+copy:
+  slogan_zh: 方形 TFT 模组 · MIPI · ST7102 · 电容触摸
+  slogan_en: Square TFT module · MIPI · ST7102 · capacitive touch
+  intro_zh: OSPTEK **3.95 寸 480×480 TFT** 是一款 **MIPI** 接口彩色显示模组，显示驱动为 **ST7102**，触摸驱动为 **ST7123**。与 **YDP395B007-V4** 电气接口与示例程序相同，盖板不同。适合方形 HMI、仪表与中尺寸交互面板等场景。
+  intro_en: OSPTEK **3.95″ 480×480 TFT** is a **MIPI** color display module driven by **ST7102**, with touch **ST7123**. Electrical interface and sample code match **YDP395B007-V4**; cover glass differs. Suited to square HMI, instruments, and mid-size panels.
+  version_note_zh: 当前模组版本：**YDP395BG006-V4**。外形与机械尺寸以 [`docs/YDP395BG006-V4_外形图.pdf`](./docs/YDP395BG006-V4_%E5%A4%96%E5%BD%A2%E5%9B%BE.pdf) 为准。
+  version_note_en: 'Current module version: **YDP395BG006-V4**. Mechanical outline follows [`docs/YDP395BG006-V4_外形图.pdf`](./docs/YDP395BG006-V4_%E5%A4%96%E5%BD%A2%E5%9B%BE.pdf).'
+  panel_type_zh: TFT / IPS（彩色）
+  panel_type_en: TFT / IPS (color)
+  spec_note_zh: 完整外形尺寸、FPC 定义、供电与时序以 CAD / 转接板资料 / 驱动手册为准。
+  spec_note_en: Full outline, FPC definition, power, and timing follow the CAD / adapter docs / driver IC datasheet.
+  nav_note_zh: 带触摸（ST7123）；与 YDP395B007-V4 接口/示例相同，盖板不同。
+  nav_note_en: With touch (ST7123); same interface/samples as YDP395B007-V4, different cover glass.
+product_image: true
+hero_alt_zh: OSPTEK 3.95 寸 480×480 TFT MIPI 模组（ST7102）宣传图
+hero_alt_en: OSPTEK 3.95&quot; 480×480 TFT MIPI module (ST7102) product image
+examples:
+- path: examples/esp32p4-idf5_st7102-mipi_esp-lvgl-port_lvgl9/
+  label_zh: ESP32-P4 · ST7102 MIPI + esp-lvgl-port / LVGL9
+  label_en: ESP32-P4 · ST7102 MIPI + esp-lvgl-port / LVGL9
+  short_zh: ESP32-P4 ST7102 MIPI + LVGL9
+  short_en: ESP32-P4 ST7102 MIPI + LVGL9
+- path: examples/with-te/esp32p4-idf5_st7102-mipi_lvgl9-common-demo/
+  label_zh: ESP32-P4 · LVGL9 + TE 防撕裂
+  label_en: ESP32-P4 · LVGL9 + TE
+  short_zh: ESP32-P4 LVGL9 + TE
+  short_en: ESP32-P4 LVGL9 + TE
+- path: examples/jpg-decoder/p4-idf_st7102-mipi_jpeg-decode/
+  label_zh: ESP32-P4 · JPEG 解码
+  label_en: ESP32-P4 · JPEG decode
+  short_zh: ESP32-P4 JPEG 解码
+  short_en: ESP32-P4 JPEG decode
+- path: examples/jpg-decoder/p4-idf_st7102-mipi_jpeg-decode_lvgl-v9/
+  label_zh: ESP32-P4 · JPEG 解码 + LVGL9
+  label_en: ESP32-P4 · JPEG decode + LVGL9
+  short_zh: ESP32-P4 JPEG 解码 + LVGL9
+  short_en: ESP32-P4 JPEG decode + LVGL9
+- path: examples/jpg-decoder/p4-idf_st7102-mipi_jpeg-decode_digital-clock_lvgl-v9/
+  label_zh: ESP32-P4 · JPEG 解码 + 数字时钟 + LVGL9
+  label_en: ESP32-P4 · JPEG decode + digital clock + LVGL9
+  short_zh: ESP32-P4 JPEG 解码 + 数字时钟 + LVGL9
+  short_en: ESP32-P4 JPEG decode + digital clock + LVGL9
+- path: examples/jpg-decoder/p4-idf_st7102-mipi_jpeg-decode_batch-loop-display/
+  label_zh: ESP32-P4 · JPEG 批量循环显示
+  label_en: ESP32-P4 · JPEG batch loop display
+  short_zh: ESP32-P4 JPEG 批量循环显示
+  short_en: ESP32-P4 JPEG batch loop display
+- path: examples/jpg-decoder/p4-idf_st7102-mipi_jpeg-decode_lvgl-v9_batch-loop-display/
+  label_zh: ESP32-P4 · JPEG 批量循环显示 + LVGL9
+  label_en: ESP32-P4 · JPEG batch loop display + LVGL9
+  short_zh: ESP32-P4 JPEG 批量循环显示 + LVGL9
+  short_en: ESP32-P4 JPEG batch loop display + LVGL9
+- path: examples/mjpeg/p4-idf_st7102-mipi_mjpeg-decode/
+  label_zh: ESP32-P4 · MJPEG 解码
+  label_en: ESP32-P4 · MJPEG decode
+  short_zh: ESP32-P4 MJPEG 解码
+  short_en: ESP32-P4 MJPEG decode
+- path: examples/mjpeg/p4-idf_st7102-mipi_mjpeg-decode_lvgl-v9/
+  label_zh: ESP32-P4 · MJPEG 解码 + LVGL9
+  label_en: ESP32-P4 · MJPEG decode + LVGL9
+  short_zh: ESP32-P4 MJPEG 解码 + LVGL9
+  short_en: ESP32-P4 MJPEG decode + LVGL9
+- path: examples/mjpeg/p4-idf_st7102-mipi_mjpeg-decode_batch-loop-display/
+  label_zh: ESP32-P4 · MJPEG 批量循环显示
+  label_en: ESP32-P4 · MJPEG batch loop display
+  short_zh: ESP32-P4 MJPEG 批量循环显示
+  short_en: ESP32-P4 MJPEG batch loop display
+- path: examples/mjpeg/p4-idf_st7102-mipi_mjpeg-decode_batch-loop-display_lvgl-v9/
+  label_zh: ESP32-P4 · MJPEG 批量循环显示 + LVGL9
+  label_en: ESP32-P4 · MJPEG batch loop display + LVGL9
+  short_zh: ESP32-P4 MJPEG 批量循环显示 + LVGL9
+  short_en: ESP32-P4 MJPEG batch loop display + LVGL9
+- path: examples/mjpeg/p4-idf_st7102-mipi_mjpeg-decode_dual-core/
+  label_zh: ESP32-P4 · MJPEG 解码（双核）
+  label_en: ESP32-P4 · MJPEG decode (dual-core)
+  short_zh: ESP32-P4 MJPEG 解码（双核）
+  short_en: ESP32-P4 MJPEG decode (dual-core)
+- path: examples/mjpeg/p4-idf_st7102-mipi_mjpeg-decode_lvgl-v9_dual-core/
+  label_zh: ESP32-P4 · MJPEG 解码 + LVGL9（双核）
+  label_en: ESP32-P4 · MJPEG decode + LVGL9 (dual-core)
+  short_zh: ESP32-P4 MJPEG 解码 + LVGL9（双核）
+  short_en: ESP32-P4 MJPEG decode + LVGL9 (dual-core)
+- path: examples/rpi5-panel-st7102-480x480/
+  label_zh: Raspberry Pi 5 · ST7102 480×480 面板驱动 / DT overlay（仅显示）
+  label_en: Raspberry Pi 5 · ST7102 480×480 panel / DT overlay (display only)
+  short_zh: Raspberry Pi 5 ST7102 面板（仅显示）
+  short_en: Raspberry Pi 5 ST7102 panel (display only)
+- path: examples/rpi5-panel-st7102-st7123-480x480/
+  label_zh: Raspberry Pi 5 · ST7102 显示 + ST7123 触摸 / DT overlay
+  label_en: Raspberry Pi 5 · ST7102 display + ST7123 touch / DT overlay
+  short_zh: Raspberry Pi 5 ST7102 显示 + ST7123 触摸
+  short_en: Raspberry Pi 5 ST7102 display + ST7123 touch
+- path: examples/rpi5-lvgl-st7102-st7123-480x480/
+  label_zh: Raspberry Pi 5 · ST7102 + ST7123 · LVGL9 运行示例
+  label_en: Raspberry Pi 5 · ST7102 + ST7123 · LVGL9 runner
+  short_zh: Raspberry Pi 5 ST7102 + ST7123 · LVGL9
+  short_en: Raspberry Pi 5 ST7102 + ST7123 · LVGL9
+resources:
+- label_zh: 外形图（YDP395BG006-V4）
+  label_en: Outline (YDP395BG006-V4)
+  path: docs/YDP395BG006-V4_外形图.pdf
+- label_zh: 转接板（与 B007 共用）
+  label_en: Adapter board (shared with B007)
+  path: docs/3.95-ST7102-MIPI_转接板.pdf
+- label_zh: 驱动 IC 数据手册（ST7102）
+  label_en: Driver IC datasheet (ST7102)
+  path: docs/ST7102_Datasheet_V0.22.pdf
+- label_zh: 初始化序列（文本）
+  label_en: Init sequence (text)
+  path: docs/CODE.txt
+- label_zh: 3.95 寸 ST7102 MIPI 屏幕（V1.1）
+  label_en: 3.95″ ST7102 MIPI board (V1.1)
+  path: docs/3.95 ST7102 MIPI屏幕V1.1.pdf
+layout_dirs:
+- images/
+- docs/
+- examples/
