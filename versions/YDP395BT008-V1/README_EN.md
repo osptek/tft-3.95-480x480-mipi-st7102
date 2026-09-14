@@ -31,7 +31,7 @@
 
 OSPTEK **3.95″ 480×480 TFT** is a **MIPI** color display module driven by **ST7102**, with **In-Cell** capacitive touch (**ST7123**). Suited to square HMI, instruments, and mid-size interactive panels.
 
-Spec ID (repository name): `3.95-tft-480x480-mipi-st7102`
+Spec ID (repository name): `tft-3.95-480x480-mipi-st7102`
 
 Current module version: **YDP395BT008-V1**. Electrical and mechanical details follow [`docs/YDP395BT008-V1.pdf`](./docs/YDP395BT008-V1.pdf).
 
@@ -52,7 +52,7 @@ Current module version: **YDP395BT008-V1**. Electrical and mechanical details fo
 
 | Description | Path |
 | ---- | ---- |
-| ESP32-P4 · ST7102 MIPI + ST7123 touch bringup | [`examples/esp32p4-3.95-tft-480x480-mipi-st7102-bringup/`](./examples/esp32p4-3.95-tft-480x480-mipi-st7102-bringup/) |
+| ESP32-P4 · ST7102 MIPI + ST7123 touch bringup | [`examples/esp32p4-tft-3.95-480x480-mipi-st7102-bringup/`](./examples/esp32p4-tft-3.95-480x480-mipi-st7102-bringup/) |
 | Raspberry Pi 5 · ST7102 480×480 panel / DT overlay (display only) | [`examples/rpi5-panel-st7102-480x480/`](./examples/rpi5-panel-st7102-480x480/) |
 | Raspberry Pi 5 · ST7102 display + ST7123 touch / DT overlay | [`examples/rpi5-panel-st7102-st7123-480x480/`](./examples/rpi5-panel-st7102-st7123-480x480/) |
 | Raspberry Pi 5 · ST7102 + ST7123 · LVGL (DRM + EVDEV) | [`examples/rpi5-lvgl-st7102-st7123-480x480/`](./examples/rpi5-lvgl-st7102-st7123-480x480/) |
@@ -60,7 +60,7 @@ Current module version: **YDP395BT008-V1**. Electrical and mechanical details fo
 ## Repository layout
 
 ```text
-3.95-tft-480x480-mipi-st7102/  # repo root (nav: ../../README_EN.md)
+tft-3.95-480x480-mipi-st7102/  # repo root (nav: ../../README_EN.md)
 └── versions/
     └── YDP395BT008-V1/        # full materials for this part number
         ├── README.md
@@ -81,7 +81,7 @@ Current module version: **YDP395BT008-V1**. Electrical and mechanical details fo
 
 ### Samples
 
-- [ESP32-P4 ST7102 MIPI + ST7123 bringup](./examples/esp32p4-3.95-tft-480x480-mipi-st7102-bringup/)
+- [ESP32-P4 ST7102 MIPI + ST7123 bringup](./examples/esp32p4-tft-3.95-480x480-mipi-st7102-bringup/)
 - [Raspberry Pi 5 ST7102 panel (display only)](./examples/rpi5-panel-st7102-480x480/)
 - [Raspberry Pi 5 ST7102 display + ST7123 touch](./examples/rpi5-panel-st7102-st7123-480x480/)
 - [Raspberry Pi 5 ST7102 + ST7123 · LVGL](./examples/rpi5-lvgl-st7102-st7123-480x480/)

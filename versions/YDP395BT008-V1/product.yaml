@@ -1,6 +1,6 @@
 sku: YDP395BT008-V1
 category: display
-repo: 3.95-tft-480x480-mipi-st7102
+repo: tft-3.95-480x480-mipi-st7102
 panel:
   size_inch: '3.95'
   panel: TFT
@@ -31,7 +31,7 @@ product_image: true
 hero_alt_zh: OSPTEK 3.95 寸 480×480 TFT MIPI 模组（ST7102）宣传图
 hero_alt_en: OSPTEK 3.95 inch 480x480 TFT MIPI module (ST7102)
 examples:
-- path: examples/esp32p4-3.95-tft-480x480-mipi-st7102-bringup/
+- path: examples/esp32p4-tft-3.95-480x480-mipi-st7102-bringup/
   label_zh: ESP32-P4 · ST7102 MIPI + ST7123 触摸 bringup
   label_en: ESP32-P4 · ST7102 MIPI + ST7123 touch bringup
   short_zh: ESP32-P4 ST7102 MIPI + ST7123 bringup

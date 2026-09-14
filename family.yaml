@@ -1,5 +1,5 @@
 category: display
-repo: 3.95-tft-480x480-mipi-st7102
+repo: tft-3.95-480x480-mipi-st7102
 panel:
   size_inch: '3.95'
   panel: TFT

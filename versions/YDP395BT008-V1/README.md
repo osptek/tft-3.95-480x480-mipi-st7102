@@ -31,7 +31,7 @@
 
 OSPTEK **3.95 寸 480×480 TFT** 是一款 **MIPI** 接口彩色显示模组，显示驱动为 **ST7102**，触摸为 **In-Cell（ST7123）**。适合方形 HMI、仪表与中尺寸交互面板等场景。
 
-规格标识（仓库名）：`3.95-tft-480x480-mipi-st7102`
+规格标识（仓库名）：`tft-3.95-480x480-mipi-st7102`
 
 当前模组版本：**YDP395BT008-V1**。电气与外形细节以 [`docs/YDP395BT008-V1.pdf`](./docs/YDP395BT008-V1.pdf) 为准。
 
@@ -52,7 +52,7 @@ OSPTEK **3.95 寸 480×480 TFT** 是一款 **MIPI** 接口彩色显示模组，�
 
 | 说明 | 路径 |
 | ---- | ---- |
-| ESP32-P4 · ST7102 MIPI + ST7123 触摸 bringup | [`examples/esp32p4-3.95-tft-480x480-mipi-st7102-bringup/`](./examples/esp32p4-3.95-tft-480x480-mipi-st7102-bringup/) |
+| ESP32-P4 · ST7102 MIPI + ST7123 触摸 bringup | [`examples/esp32p4-tft-3.95-480x480-mipi-st7102-bringup/`](./examples/esp32p4-tft-3.95-480x480-mipi-st7102-bringup/) |
 | Raspberry Pi 5 · ST7102 480×480 面板驱动 / DT overlay（仅显示） | [`examples/rpi5-panel-st7102-480x480/`](./examples/rpi5-panel-st7102-480x480/) |
 | Raspberry Pi 5 · ST7102 显示 + ST7123 触摸 / DT overlay | [`examples/rpi5-panel-st7102-st7123-480x480/`](./examples/rpi5-panel-st7102-st7123-480x480/) |
 | Raspberry Pi 5 · ST7102 + ST7123 · LVGL（DRM + EVDEV） | [`examples/rpi5-lvgl-st7102-st7123-480x480/`](./examples/rpi5-lvgl-st7102-st7123-480x480/) |
@@ -60,7 +60,7 @@ OSPTEK **3.95 寸 480×480 TFT** 是一款 **MIPI** 接口彩色显示模组，�
 ## 仓库结构
 
 ```text
-3.95-tft-480x480-mipi-st7102/  # 仓库根（导航见 ../../README.md）
+tft-3.95-480x480-mipi-st7102/  # 仓库根（导航见 ../../README.md）
 └── versions/
     └── YDP395BT008-V1/        # 本料号完整资料
         ├── README.md
@@ -81,7 +81,7 @@ OSPTEK **3.95 寸 480×480 TFT** 是一款 **MIPI** 接口彩色显示模组，�
 
 ### 示例工程
 
-- [ESP32-P4 ST7102 MIPI + ST7123 bringup](./examples/esp32p4-3.95-tft-480x480-mipi-st7102-bringup/)
+- [ESP32-P4 ST7102 MIPI + ST7123 bringup](./examples/esp32p4-tft-3.95-480x480-mipi-st7102-bringup/)
 - [Raspberry Pi 5 ST7102 面板（仅显示）](./examples/rpi5-panel-st7102-480x480/)
 - [Raspberry Pi 5 ST7102 显示 + ST7123 触摸](./examples/rpi5-panel-st7102-st7123-480x480/)
 - [Raspberry Pi 5 ST7102 + ST7123 · LVGL](./examples/rpi5-lvgl-st7102-st7123-480x480/)

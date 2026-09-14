@@ -31,7 +31,7 @@
 
 OSPTEK **3.95″ 480×480 TFT** is a **MIPI** color display module driven by **ST7102**, with touch **ST7123**. Electrical interface and sample code match **YDP395B007-V4**; cover glass differs. Suited to square HMI, instruments, and mid-size panels.
 
-Spec ID (repository name): `3.95-tft-480x480-mipi-st7102`
+Spec ID (repository name): `tft-3.95-480x480-mipi-st7102`
 
 Current module version: **YDP395BG006-V4**. Mechanical outline follows [`docs/YDP395BG006-V4_外形图.pdf`](./docs/YDP395BG006-V4_%E5%A4%96%E5%BD%A2%E5%9B%BE.pdf).
 
@@ -72,7 +72,7 @@ Current module version: **YDP395BG006-V4**. Mechanical outline follows [`docs/YD
 ## Repository layout
 
 ```text
-3.95-tft-480x480-mipi-st7102/  # repo root (nav: ../../README_EN.md)
+tft-3.95-480x480-mipi-st7102/  # repo root (nav: ../../README_EN.md)
 └── versions/
     └── YDP395BG006-V4/        # full materials for this part number
         ├── README.md
