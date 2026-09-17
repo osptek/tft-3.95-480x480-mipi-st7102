@@ -6,6 +6,7 @@ panel: tft
 resolution: 480x480
 interface: [mipi]
 shape: rect
+corner: rounded
 
 versions:
   - id: YDP395B007-V4
