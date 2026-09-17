@@ -1,0 +1,22 @@
+id: tft-3.95-480x480-mipi-st7102
+category: displays
+
+size: "3.95"
+panel: tft
+resolution: 480x480
+interface: [mipi]
+shape: rect
+
+versions:
+  - id: YDP395B007-V4
+    driver: ST7102
+    touch: ST7123
+    note: none
+  - id: YDP395BG006-V4
+    driver: ST7102
+    touch: ST7123
+    note: same interface/samples as YDP395B007-V4, different cover glass
+  - id: YDP395BT008-V1
+    driver: ST7102
+    touch: ST7123
+    note: In-Cell
